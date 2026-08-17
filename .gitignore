@@ -1,0 +1,16 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build/workspace files
+/bin/
+/vendor/
+
+# IDE
+.vscode/
+.idea/
