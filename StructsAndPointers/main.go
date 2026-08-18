@@ -37,4 +37,7 @@ func main() {
 
 	fmt.Printf("%s's total balance across %d accounts: %.2f\n",
 		p.firstName, len(p.accounts), p.totalBalance())
+
+	fmt.Println("address of savings in main:", &savings)
+	demoPointerBasics(savings) // shows *, &, and the copied-pointer-different-address rules
 }
