@@ -5,3 +5,4 @@ My journey learning Go, one folder per topic/exercise.
 ## Progress
 
 - `helloworld/` — first Go program, basic syntax and `fmt.Println`
+- `Cards/` — custom `deck` type ([]string) with methods for creating, printing, dealing, shuffling, and saving/loading a deck to/from file
