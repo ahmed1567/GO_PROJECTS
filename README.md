@@ -12,3 +12,4 @@ My journey learning Go, one folder per topic/exercise.
 - `Http/` — `net/http` client basics: a free, no-API-key weather lookup (geocode + forecast via Open-Meteo), plus `io.Reader`/`io.Writer` experiments against a live HTTP response
 - `Assignment1-interfaces/` — `shape` interface satisfied by `square` and `triangle`
 - `Assignment2-interfaces/` — CLI program that reads a file (via `os.Args`) and streams it to the terminal with `io.Copy`
+- `Goroutines/` — goroutine fundamentals: fire-and-forget gotcha, `sync.WaitGroup`, buffered/unbuffered channels, channel directions, closing/`select`, race conditions vs `sync.Mutex`, a worker pool, and a continuous link-monitor as a real example
