@@ -14,3 +14,4 @@ My journey learning Go, one folder per topic/exercise.
 - `Assignment2-interfaces/` — CLI program that reads a file (via `os.Args`) and streams it to the terminal with `io.Copy`
 - `Goroutines/` — goroutine fundamentals: fire-and-forget gotcha, `sync.WaitGroup`, buffered/unbuffered channels, channel directions, closing/`select`, race conditions vs `sync.Mutex`, a worker pool, and a continuous link-monitor as a real example
 - `Context/` — `context.Context`: `WithCancel`/`WithTimeout`/`WithDeadline`, propagating cancellation into a goroutine doing real work, and the production graceful-shutdown pattern (`signal.NotifyContext`)
+- `HttpServer/` — a real `net/http` REST API server (`cmd/`+`internal/` layout): routing, middleware chaining (structured logging via `log/slog`, panic recovery, API-key auth), request validation, env-var config, table-driven tests, graceful shutdown, and a tested Dockerfile
